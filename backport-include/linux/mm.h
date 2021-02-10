@@ -1,6 +1,7 @@
 #ifndef __BACKPORT_MM_H
 #define __BACKPORT_MM_H
 #include_next <linux/mm.h>
+#include_next <linux/err.h>
 
 #ifndef VM_NODUMP
 /*
